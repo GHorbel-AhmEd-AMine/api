@@ -1,0 +1,116 @@
+{
+  "id": "afrisar_dlr_roi_RAB067q",
+  "bbox": [-1.923946, 9.8797264, -1.9233103, 9.8803577],
+  "type": "Feature",
+  "links": [
+    {
+      "rel": "collection",
+      "type": "application/json",
+      "href": "https://stac.maap-project.org/collections/AFRISAR_DLR"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "https://stac.maap-project.org/collections/AFRISAR_DLR"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://stac.maap-project.org/"
+    },
+    {
+      "rel": "self",
+      "type": "application/geo+json",
+      "href": "https://stac.maap-project.org/collections/AFRISAR_DLR/items/afrisar_dlr_roi_RAB067q"
+    },
+    {
+      "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+      "href": "https://edav-ui.val.esa-maap.org",
+      "title": "WMS GetMap Resource (VisualizationURL)"
+    },
+    {
+      "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+      "href": "https://earth.esa.int/documents/10174/134665/AfriSAR-Final-Report"
+    }
+  ],
+  "assets": {
+    "dbf": {
+      "href": "https://bmap-catalogue-data.oss.eu-west-0.prod-cloud-ocb.orange-business.com/Campaign_data/afrisar_dlr/afrisar_dlr_roi_RAB067q.dbf",
+      "type": "application/octet-stream",
+      "roles": [
+        "data"
+      ]
+    },
+    "prj": {
+      "href": "https://bmap-catalogue-data.oss.eu-west-0.prod-cloud-ocb.orange-business.com/Campaign_data/afrisar_dlr/afrisar_dlr_roi_RAB067q.prj",
+      "type": "application/octet-stream",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "shp": {
+      "href": "https://bmap-catalogue-data.oss.eu-west-0.prod-cloud-ocb.orange-business.com/Campaign_data/afrisar_dlr/afrisar_dlr_roi_RAB067q.shp",
+      "type": "application/octet-stream",
+      "roles": [
+        "data"
+      ]
+    },
+    "shx": {
+      "href": "https://bmap-catalogue-data.oss.eu-west-0.prod-cloud-ocb.orange-business.com/Campaign_data/afrisar_dlr/afrisar_dlr_roi_RAB067q.shx",
+      "type": "application/octet-stream",
+      "roles": [
+        "data"
+      ]
+    },
+    "PRODUCT": {
+      "href": "href",
+      "title": "Product",
+      "type": "application/octet-stream",
+      "alternate": {
+        "s3": {
+          "href": "/bmaap-dev/keepForITTest/copyS3ToCopa2.txt",
+          "storage:platform": "CLOUDFERRO",
+          "storage:region": "waw",
+          "storage:requester_pays": false,
+          "storage:tier": "Online"
+        }
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-1.9233103, 9.8797264],
+        [-1.923946, 9.8797264],
+        [-1.923946, 9.8803577],
+        [-1.9233103, 9.8803577],
+        [-1.9233103, 9.8797264]
+      ]
+    ]
+  },
+  "collection": "AFRISAR_DLR",
+  "properties": {
+    "updated": "2021-07-21T14:18:49+00:00",
+    "datetime": "2021-07-21T14:18:49+00:00",
+    "polygons": [
+      [
+        "-1.9233103 9.8797264 -1.923946 9.8797264 -1.923946 9.8803577 -1.9233103 9.8803577 -1.9233103 9.8797264"
+      ]
+    ],
+    "time_end": "2021-07-21T14:18:49.000Z",
+    "concept_id": "G1200116315-ESA_MAAP",
+    "dataset_id": "AFRISAR_DLR",
+    "time_start": "2021-07-21T14:18:49.000Z",
+    "browse_flag": false,
+    "data_center": "ESA_MAAP",
+    "granule_size": "6.064453045837581E-4",
+    "day_night_flag": "BOTH",
+    "original_format": "ECHO10",
+    "coordinate_system": "CARTESIAN",
+    "online_access_flag": true,
+    "collection_concept_id": "C1200109552-ESA_MAAP"
+  },
+  "stac_version": "1.0.0",
+  "stac_extensions": []
+}
